@@ -5,7 +5,7 @@ import { Button, Checkbox, Form } from "semantic-ui-react";
 import Popup from "reactjs-popup";
 import Preloader from "../rooms/Preloader";
 import Swal from "sweetalert2";
-import StripeContainer  from "../../payment/StripeContainer"
+// import StripeContainer  from "../../payment/StripeContainer"
 
 import Sweetalert from '../../sweetalert'
 
@@ -264,7 +264,7 @@ Swal.fire(
                                 setcheckOut(e.target.value);
                               }}
                             />
-                            <StripeContainer />
+                            {/* <StripeContainer /> */}
                             <i className="icon_calendar"></i>
                           </div>
                         </Form.Field>

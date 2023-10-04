@@ -23,7 +23,7 @@ function App() {
           <Route path="rooms/room-details/:hotelid/:id" element={<Room_details />} />
           <Route path="rooms" element={<Rooms />} />
           {/* Add a catch-all route for unmatched paths */}
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={<Navigate to="404" />} />
         </Routes>
         <Footer /> {/* Footer outside Routes */}
       </div>
