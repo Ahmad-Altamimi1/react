@@ -13,7 +13,7 @@ import Index_component from "./Pages/index/index_component";
 
 function App() {
   return (
-    <Router>
+    <Router basename="react">
       <div>
         <Layout /> {/* Layout outside Routes */}
         <Routes>
